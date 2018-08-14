@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    border: #dddddd;
+}
+
+header {
+    background: #ffffff;
+    border: #cccccc;
+    padding: 20px 0 20px 0;
+    margin: 0 0 0 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Nav {
+    float: right;
+    margin: 0 12.5% 0 0;
+}
+
+.MyName, .About, .Portfolio, .Contact {
+    display: inline;
+}
+
+.MyName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 21px 20px 20px 20px;
+    margin: 0 15% 0 15%;
+}
+
+.About, .Portfolio, .Contact {
+    text-align: center;
+    color: #777777;
+    padding: 20px 0 20px 20px;
+}
+
+.Portfolio2, .About2, .Contact2 {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    color: #777777;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* About Me Page */
+img.Selfie {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+section.AboutMe, section.PortfolioPage, section.ThankYou {
+    width: 70%;
+    margin: 3% 15% 3% 15%;
+    float: left;
+    border: #dddddd;
+    background: #ffffff;
+    padding: 0 20px 20px 20px;
+}
+
+/* Headlines */
+.AboutMe, .ContactMe, .PortfolioPage, .ThankYou {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    border-bottom: 3px solid #777777;
+    padding: 0 0 20px 0;
+}
+
+article.AboutMe2 {
+    text-align: justify;
+    float: left;
+    color: #777777;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+}
+
+/* Contact Page */
+section.left {
+    float: left;
+    width: 53%;
+    margin: 3% 0 0 15%;
+    background: #ffffff;
+    border: #dddddd;
+    padding: 0 20px 20px 20px;
+}
+
+article.SubmitForm {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]#Name, input[type=text]#Email {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+}
+
+textarea[type=text]#Message {
+    width: 100%;
+    padding: 12px 12px 12px 12px;
+    margin: 8px 0 8px 0;
+    box-sizing: border-box;
+
+}
+
+.Submit {
+    background-color:#4aaaa5;
+    background-repeat: no-repeat;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+a.Submit:hover {
+    box-shadow: 0 14px 40px 0 rgba(0,0,0,0.24), 0 19px 60px 0 rgba(0,0,0,0.19);
+}
+
+a.Submit:visited, a.Hangman2:visited, a.RPG2:visited, a.Trivia2:visited, a.Rutgers2:visited, a.RockPaperScissors2:visited {
+    color: #ffffff;
+}
+
+section.right {
+    float: right;
+    width: 12%;
+    background: #ffffff;
+    border: #dddddd;
+    margin: 3% 12.5% 0 1.5%;
+    padding: 0 25px 20px 25px;
+}
+
+.ConnectWithMe {
+    color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #777777;
+    padding: 0 0 20px 0;
+}
+
+article.ConnectWithMeLinks {
+    display: inline;
+}
+
+img.GitHubIcon {
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+img.LinkedInIcon {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+img.OverflowIcon {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+/* Portfolio Page */
+img.Hangman {
+    width: 110px;
+    height: 160px;
+    padding: 0 20px 0 20px;
+    position: relative;
+    float: left;
+}
+
+a.Hangman2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 370.6px;
+    left: 280px;
+    float: left;
+}
+
+img.RPG {
+    width: 160px;
+    height: 140px;
+    padding: 10px 0 10px 0;
+    background: #ffffff;
+    margin-left: 30px;
+    float: left;
+    top: -55px;
+    left: 50px;
+    position: relative;
+}
+
+a.RPG2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 511.7px;
+    top: 370px;
+}
+
+img.Trivia {
+    width: 160px;
+    height: 110px;
+    padding: 20px 0 20px 0;
+    background: #ffffff;
+    position: relative;
+    top: -110px;
+    left: 128px;
+}
+
+a.Trivia2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 750px;
+    top: 370px;
+}
+
+img.Rutgers {
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    top: -100px;
+}
+
+a.Rutgers2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 281.7px;
+    top: 580.5px;
+}
+
+img.RockPaperScissors {
+    width: 160px;
+    height: 160px;
+    background: #ffffff;
+    float: left;
+    position: relative;
+    top: -160px;
+    left: 100px;
+}
+
+a.RockPaperScissors2 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 580px;
+    left: 544px;
+}
+
+section.PortfolioPage2, .Row3 {
+    margin: 0 0 -100px 0;
+}
+
+/* Footer for Everyone */
+footer {
+    clear: both;
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    padding: 15px 0 0 0;
+    border-top: 4px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}

@@ -10,7 +10,7 @@ header {
     padding: 20px 0 20px 0;
     margin: 0 0 0 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
 }
@@ -301,3 +301,50 @@ footer {
     left: 0;
     width: 100%
 }
+
+/* For Phone, 640px and less */
+@media only screen and (max-width: 640px) {
+
+}
+
+
+/* For Tablet, 641px < 768px < 979px */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* For Large Devices, 980px and up */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 10px 0 10px 0;
+    }
+    .MyName {
+        margin: 0 5% 0 5%;
+        padding: 12px 10px 10px 10px;
+    }
+    .Nav {
+        float: right;
+        margin: 0 6.5% 0 0;
+    }
+
+    /* About */
+    section.AboutMe, section.PortfolioPage, section.ThankYou {
+        width: 70%;
+        margin: 3% 5% 3% 5%;
+    }
+
+    /* Contact Page */
+    section.left {
+        width: device-width;
+        margin: 3% 0 0 5%;
+        width: 57%;
+    }
+    section.right {
+        width: 20%;
+        margin: 3% 6.5% 0 1.5%;
+    }
+
+    /* Portfolio Page */
+
+}
+

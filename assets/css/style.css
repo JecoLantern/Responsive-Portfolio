@@ -446,7 +446,7 @@ footer {
 }
 
 /* For Large Devices, 980px and up */
-@media screen and (min-width: 769px) and (max-width: 980px) {
+@media screen and (min-width: 800px) and (max-width: 980px) {
     header {
         padding: 10px 0 10px 0;
     }

@@ -284,10 +284,6 @@ a.RockPaperScissors2 {
     left: 544px;
 }
 
-section.PortfolioPage2, .Row3 {
-    margin: 0 0 -100px 0;
-}
-
 /* Footer for Everyone */
 footer {
     clear: both;
@@ -302,38 +298,174 @@ footer {
     width: 100%
 }
 
-/* For Phone, 640px and less */
-@media only screen and (max-width: 640px) {
-
-}
-
-
 /* For Tablet, 641px < 768px < 979px */
 @media only screen and (max-width: 768px) {
-
-}
-
-/* For Large Devices, 980px and up */
-@media screen and (max-width: 980px) {
     header {
         padding: 10px 0 10px 0;
     }
     .MyName {
-        margin: 0 5% 0 5%;
+        margin: 0 1.5% 0 1.5%;
         padding: 12px 10px 10px 10px;
+    }
+    .Nav {
+        float: right;
+        margin: 0 3.5% 0 0;
+    }
+    .About, .Portfolio, .Contact {
+        text-align: center;
+        color: #777777;
+        padding: 3px 0 3px 3px;
+    }
+
+    article.AboutMe2 {
+        text-align: justify;
+        float: none;
+        color: #777777;
+        margin: 0 10px 0 0;
+        font-size: 16px;
+    }
+
+    /* About 768 */
+    section.AboutMe, section.PortfolioPage, section.ThankYou {
+        width: 90%;
+        margin: 3% 1.5% 3% 1.5%;
+    }
+    img.Selfie {
+        width: 200px;
+        height: 250px;
+        float: left;
+        margin: 0 15px 0 0;
+    }
+
+    /* Contact Page 768 */
+    section.right {
+        display: none;
+        float: none;
+    }
+    section.left {
+        float: none;
+        margin: 3% 1.5% 0 1.5%;
+        width: 90%;
+        padding-top: 2px;
+    }
+
+    /* Portfolio Page 768 */
+    a.Hangman2 {
+        top: 342.6px;
+        left: 38.5px;
+    }
+    a.RPG2 {
+        left: 268.7px;
+        top: 342px;
+    }
+    a.Trivia2 {
+        left: 507px;
+        top: 342px;
+    }
+    a.Rutgers2 {
+        left: 38.7px;
+        top: 557.5px;
+    }
+    img.RockPaperScissors {
+        top: -156px;
+        left: 70px;
+    }
+    a.RockPaperScissors2 {
+        top: 557px;
+        left: 269px;
+    }
+}
+
+/* For Phone, 640px and less */
+@media only screen and (max-width: 640px) {
+    header {
+        padding: 0;
+        margin: 0 0.5% 0 0.5%;
+        position: static;
+        width: 96.5vw;
+        top: 0;
+        left: 0;
+    }
+    
+    .Nav {
+        float: none;
+        margin: 0 4.5% 0 20.5%;
+    }
+
+    .MyName, .About, .Portfolio, .Contact {
+        display: inline-block;
+    }
+
+    .MyName {
+        font-size: 24px;
+        padding: 6px 105px 5px 100px;
+        margin: 0 0.5% 0 0.5%;
+    }
+
+    .About, .Portfolio, .Contact {
+        text-align: center;
+        padding: 10px 0 5px 10px;
+    }
+
+    /* Portfolio Page 640 */
+    a.Hangman2 {
+        top: 416.6px;
+        left: 38px;
+    }
+    img.RPG {
+        top: -55px;
+        left: 11px;
+    }
+    a.RPG2 {
+        left: 227.7px;
+        top: 416px;
+    }
+    img.Trivia {
+        top: -110px;
+        left: 37px;
+    }
+    a.Trivia2 {
+        left: 412px;
+        top: 416px;
+    }
+    img.Rutgers {
+        top: -100px;
+    }
+    a.Rutgers2 {
+        left: 36.7px;
+        top: 630.5px;
+    }
+    img.RockPaperScissors {
+        top: -156px;
+        left: 31px;
+    }
+    a.RockPaperScissors2 {
+        top: 631px;
+        left: 228px;
+    }
+}
+
+/* For Large Devices, 980px and up */
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    header {
+        padding: 10px 0 10px 0;
+    }
+    .MyName {
+        margin: 0 1.5% 0 1.5%;
+        padding: 15px 10px 10px 10px;
     }
     .Nav {
         float: right;
         margin: 0 6.5% 0 0;
     }
 
-    /* About */
+    /* About 980 */
     section.AboutMe, section.PortfolioPage, section.ThankYou {
-        width: 70%;
+        width: 85%;
         margin: 3% 5% 3% 5%;
     }
 
-    /* Contact Page */
+    /* Contact Page 980 */
     section.left {
         width: device-width;
         margin: 3% 0 0 5%;
@@ -344,7 +476,30 @@ footer {
         margin: 3% 6.5% 0 1.5%;
     }
 
-    /* Portfolio Page */
-
+    /* Portfolio Page 980 */
+    a.Hangman2 {
+        top: 348.6px;
+        left: 76.5px;
+    }
+    a.RPG2 {
+        left: 305.7px;
+        top: 349px;
+    }
+    a.Trivia2 {
+        left: 544px;
+        top: 349px;
+    }
+    a.Rutgers2 {
+        left: 75.7px;
+        top: 563.5px;
+    }
+    img.RockPaperScissors {
+        top: -156px;
+        left: 70px;
+    }
+    a.RockPaperScissors2 {
+        top: 564px;
+        left: 306px;
+    }
 }
 
